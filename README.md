@@ -1,53 +1,54 @@
 <div align="center">
 
-![Hew — Frontend Developer, AI Builder, Indie Maker](assets/hero.svg)
+<img src="assets/hero.svg" width="100%" alt="Hew — Developer, AI Explorer, Indie Maker" />
 
-**Frontend Developer · AI Builder · Indie Maker**
+<br />
 
-I make practical web tools, experiment with AI workflows, and turn ideas into products people can use.
+**Frontend Developer** &nbsp; / &nbsp; **AI Explorer** &nbsp; / &nbsp; **Indie Maker**
 
-[**ToolkitFree**](https://toolkitfree.net/) &nbsp;·&nbsp; [**Interactive Poetry**](https://shi.guoxueji.org/) &nbsp;·&nbsp; [**X / Twitter**](https://x.com/ruofeng_x)
+*Building practical tools, playful experiences, and things worth shipping.*
+
+[Website · ToolkitFree](https://toolkitfree.net/) &nbsp; · &nbsp; [Creative Project · Poetry](https://shi.guoxueji.org/) &nbsp; · &nbsp; [Notes & Updates · X](https://x.com/ruofeng_x)
 
 </div>
 
----
+<br />
 
-### About
+### 01 / A LITTLE ABOUT ME
 
-I'm **Hew**, a frontend developer who enjoys building useful, well-crafted products.
+Hey, I'm **Hew**. I work primarily with **React, TypeScript, and Node.js**, and I enjoy turning ideas into usable web products. Lately I've been exploring how **AI agents, automation, and creative coding** can make software more helpful — and more interesting.
 
-My work spans **React, TypeScript, Node.js**, developer tooling, and practical applications of AI. I'm especially interested in building things that make everyday work simpler — from small browser utilities to creative, interactive experiences.
+I care about thoughtful interfaces, simple workflows, and shipping things that people can actually use.
 
-- Building lightweight tools with a focus on usability and privacy.
-- Exploring AI agents, automation, and developer workflows.
-- Shipping independent projects and learning in public.
-
-### Things I've built
+### 02 / THINGS I'VE MADE
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://toolkitfree.net/"><img src="assets/toolkitfree.svg" alt="ToolkitFree" width="100%" /></a>
-      <p>Free, privacy-first browser utilities for images, PDFs, QR codes, and more. Selected files are processed locally in your browser.</p>
-      <a href="https://toolkitfree.net/"><b>Explore ToolkitFree →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://shi.guoxueji.org/"><img src="assets/poetry.svg" alt="Interactive Chinese poetry" width="100%" /></a>
-      <p>An interactive approach to classical Chinese poetry, bringing words and visual experiences together through code.</p>
-      <a href="https://shi.guoxueji.org/"><b>Explore the poetry site →</b></a>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://toolkitfree.net/"><img src="assets/toolkitfree.svg" alt="ToolkitFree project artwork" width="100%"/></a><br/>
+<b>ToolkitFree</b><br/>
+<sub>A collection of practical online tools for everyday file and image tasks.</sub><br/><br/>
+<a href="https://toolkitfree.net/">Explore the tools ↗</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://shi.guoxueji.org/"><img src="assets/poetry.svg" alt="Poetry in Motion project artwork" width="100%"/></a><br/>
+<b>Poetry in Motion · 诗之境</b><br/>
+<sub>Classical Chinese poetry reimagined as interactive, code-driven scenes.</sub><br/><br/>
+<a href="https://shi.guoxueji.org/">Experience the poetry ↗</a>
+</td>
+</tr>
 </table>
 
-### What I work with
+### 03 / THE TOOLKIT
 
-**Frontend** &nbsp; `JavaScript` `TypeScript` `React` `HTML` `CSS`  
-**Backend & tools** &nbsp; `Node.js` `Git` `Linux`  
-**Exploring** &nbsp; `AI Agents` `LLM Applications` `Automation`
+`TypeScript` &nbsp; `JavaScript` &nbsp; `React` &nbsp; `Node.js` &nbsp; `HTML/CSS` &nbsp; `Git` &nbsp; `Linux`
 
-### Elsewhere
+**Currently exploring** &nbsp; `AI Agents` &nbsp; `LLM Applications` &nbsp; `Automation` &nbsp; `Creative Coding`
 
-- **Projects:** [ToolkitFree](https://toolkitfree.net/) · [Interactive Poetry](https://shi.guoxueji.org/)
-- **Ideas and updates:** [@ruofeng_x on X](https://x.com/ruofeng_x)
+### 04 / WHAT'S NEXT
 
-<sub>Build small. Make it useful. Keep improving.</sub>
+I'm interested in the intersection of **useful software**, **AI-powered workflows**, and **independent products**. I share experiments, discoveries, and the occasional behind-the-scenes build note on [X / @ruofeng_x](https://x.com/ruofeng_x).
+
+---
+
+<div align="center"><sub>MAKE IT SIMPLE. MAKE IT USEFUL. KEEP BUILDING.</sub><br/><sub>© Hew · <a href="https://github.com/Hew007">GitHub</a> · <a href="https://x.com/ruofeng_x">X</a></sub></div>
