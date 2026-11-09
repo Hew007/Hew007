@@ -3,7 +3,12 @@
 .flow{stroke-dasharray:4 6;animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-20}}
 .grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
 .tw{animation:tw 3s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
-@media (prefers-reduced-motion:reduce){.flow,.grow,.tw{animation:none}}</style>
+.pt{transform-box:fill-box;transform-origin:center;opacity:0;animation:pt 9s linear infinite}
+@keyframes pt{0%{transform:translate(0,0) rotate(0);opacity:0}8%{opacity:.9}85%{opacity:.7}100%{transform:translate(-70px,150px) rotate(320deg);opacity:0}}
+.ch{opacity:0;animation:ch 14s ease-out infinite}@keyframes ch{0%{opacity:0;transform:translateY(4px)}5%{opacity:1;transform:none}82%{opacity:1}90%{opacity:0}100%{opacity:0}}
+.cl{animation:cl 38s linear infinite}@keyframes cl{from{transform:translateX(-260px)}to{transform:translateX(640px)}}
+.halo{transform-box:fill-box;transform-origin:center;animation:halo 6s ease-in-out infinite}@keyframes halo{50%{transform:scale(1.15);opacity:.2}}
+@media (prefers-reduced-motion:reduce){.flow,.grow,.tw,.cl,.halo{animation:none}.ch{animation:none;opacity:1}.pt{display:none}}</style>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#12161c"/><stop offset="1" stop-color="#1a1e26"/></linearGradient>
 <radialGradient id="gl" cx="1" cy="0" r=".8"><stop stop-color="#f2ba72" stop-opacity=".14"/><stop offset="1" stop-color="#f2ba72" stop-opacity="0"/></radialGradient></defs>
 <rect width="600" height="340" rx="20" fill="url(#bg)"/><rect width="600" height="340" rx="20" fill="url(#gl)"/>
@@ -13,11 +18,16 @@
 <text x="32" y="118" class="s" font-size="15.5" fill="#9aa3ae">Classical Chinese poetry, reimagined as living scenes.</text>
 <clipPath id="cp"><rect x="32" y="138" width="536" height="140" rx="12"/></clipPath>
 <g clip-path="url(#cp)"><rect x="32" y="138" width="536" height="140" fill="#0b0d11"/>
-<circle cx="470" cy="180" r="26" fill="#f6ecd2"/><circle cx="470" cy="180" r="44" fill="#f6ecd2" opacity=".08"/>
-<g fill="#f4f0e8"><circle class="tw" cx="268" cy="166" r="1.5"/><circle class="tw" cx="300" cy="152" r="1.3" style="animation-delay:1.2s"/><circle class="tw" cx="390" cy="210" r="1.2" style="animation-delay:2s"/></g>
+<circle class="halo" cx="470" cy="180" r="46" fill="#f6ecd2" opacity=".12"/><circle cx="470" cy="180" r="26" fill="#f6ecd2"/>
+<filter id="soft" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="4"/></filter><g opacity=".2" fill="#cfd8da" filter="url(#soft)"><g class="cl"><ellipse cx="120" cy="184" rx="70" ry="7"/><ellipse cx="160" cy="176" rx="44" ry="6"/></g></g>
+<g fill="#f4f0e8"><circle class="tw" cx="268" cy="166" r="1.5"/><circle class="tw" cx="330" cy="150" r="1.3" style="animation-delay:1.2s"/><circle class="tw" cx="390" cy="212" r="1.2" style="animation-delay:2s"/><circle class="tw" cx="548" cy="152" r="1.2" style="animation-delay:.6s"/></g>
 <path d="M32 250Q110 196 190 232Q260 186 330 228Q430 170 520 226Q550 214 568 222V278H32Z" fill="#3a4a4c"/>
-<path d="M32 264Q140 234 250 262Q360 226 450 258Q520 240 568 252V278H32Z" fill="#26343a"/></g>
-<text x="90" y="182" font-size="17" letter-spacing="8" fill="#f4f0e8" font-family="serif">床前明月光</text>
-<text x="90" y="210" font-size="17" letter-spacing="8" fill="#9aa3ae" font-family="serif">疑是地上霜</text>
+<path d="M32 264Q140 234 250 262Q360 226 450 258Q520 240 568 252V278H32Z" fill="#26343a"/>
+<g stroke="#4b5a58" stroke-width="2.4" stroke-linecap="round" fill="none"><path d="M568 150Q520 166 492 196M530 162Q512 150 498 152M512 176Q500 186 504 198"/></g>
+<g fill="#f2b8c6"><circle cx="500" cy="152" r="3"/><circle cx="505" cy="198" r="2.6"/><circle cx="532" cy="164" r="2.4"/></g>
+<g transform="translate(520 150)"><ellipse class="pt" rx="3.4" ry="2" fill="#f2b8c6" style="animation-delay:0s;animation-duration:8s"/></g><g transform="translate(480 140)"><ellipse class="pt" rx="3.4" ry="2" fill="#f2b8c6" style="animation-delay:2.2s;animation-duration:9.5s"/></g><g transform="translate(550 160)"><ellipse class="pt" rx="3.4" ry="2" fill="#f2b8c6" style="animation-delay:4.1s;animation-duration:8.5s"/></g><g transform="translate(430 136)"><ellipse class="pt" rx="3.4" ry="2" fill="#f2b8c6" style="animation-delay:5.6s;animation-duration:10s"/></g><g transform="translate(500 136)"><ellipse class="pt" rx="3.4" ry="2" fill="#f2b8c6" style="animation-delay:7.3s;animation-duration:9s"/></g><g transform="translate(380 140)"><ellipse class="pt" rx="3.4" ry="2" fill="#f2b8c6" style="animation-delay:3.3s;animation-duration:11s"/></g>
+</g>
+<text class="ch" x="90" y="184" font-size="17" fill="#f4f0e8" font-family="serif" style="animation-delay:0.3s">床</text><text class="ch" x="116" y="184" font-size="17" fill="#f4f0e8" font-family="serif" style="animation-delay:0.6499999999999999s">前</text><text class="ch" x="142" y="184" font-size="17" fill="#f4f0e8" font-family="serif" style="animation-delay:1s">明</text><text class="ch" x="168" y="184" font-size="17" fill="#f4f0e8" font-family="serif" style="animation-delay:1.3499999999999999s">月</text><text class="ch" x="194" y="184" font-size="17" fill="#f4f0e8" font-family="serif" style="animation-delay:1.7s">光</text>
+<text class="ch" x="90" y="212" font-size="17" fill="#9aa3ae" font-family="serif" style="animation-delay:2.3s">疑</text><text class="ch" x="116" y="212" font-size="17" fill="#9aa3ae" font-family="serif" style="animation-delay:2.65s">是</text><text class="ch" x="142" y="212" font-size="17" fill="#9aa3ae" font-family="serif" style="animation-delay:3s">地</text><text class="ch" x="168" y="212" font-size="17" fill="#9aa3ae" font-family="serif" style="animation-delay:3.3499999999999996s">上</text><text class="ch" x="194" y="212" font-size="17" fill="#9aa3ae" font-family="serif" style="animation-delay:3.6999999999999997s">霜</text>
 <g class="m" font-size="12"><rect x="32" y="292" width="98" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="81" y="308" text-anchor="middle" fill="#c9ced6">TypeScript</text><rect x="138" y="292" width="136" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="206" y="308" text-anchor="middle" fill="#c9ced6">Creative coding</text><rect x="282" y="292" width="105.6" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="334.8" y="308" text-anchor="middle" fill="#c9ced6">Interactive</text></g>
 </svg>

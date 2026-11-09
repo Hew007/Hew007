@@ -3,7 +3,12 @@
 .flow{stroke-dasharray:4 6;animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-20}}
 .grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
 .tw{animation:tw 3s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
-@media (prefers-reduced-motion:reduce){.flow,.grow,.tw{animation:none}}</style>
+.pt{transform-box:fill-box;transform-origin:center;opacity:0;animation:pt 9s linear infinite}
+@keyframes pt{0%{transform:translate(0,0) rotate(0);opacity:0}8%{opacity:.9}85%{opacity:.7}100%{transform:translate(-70px,150px) rotate(320deg);opacity:0}}
+.ch{opacity:0;animation:ch 14s ease-out infinite}@keyframes ch{0%{opacity:0;transform:translateY(4px)}5%{opacity:1;transform:none}82%{opacity:1}90%{opacity:0}100%{opacity:0}}
+.cl{animation:cl 38s linear infinite}@keyframes cl{from{transform:translateX(-260px)}to{transform:translateX(640px)}}
+.halo{transform-box:fill-box;transform-origin:center;animation:halo 6s ease-in-out infinite}@keyframes halo{50%{transform:scale(1.15);opacity:.2}}
+@media (prefers-reduced-motion:reduce){.flow,.grow,.tw,.cl,.halo{animation:none}.ch{animation:none;opacity:1}.pt{display:none}}</style>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#12161c"/><stop offset="1" stop-color="#1a1e26"/></linearGradient>
 <radialGradient id="gl" cx="1" cy="0" r=".8"><stop stop-color="#ff7a4d" stop-opacity=".14"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></radialGradient></defs>
 <rect width="600" height="340" rx="20" fill="url(#bg)"/><rect width="600" height="340" rx="20" fill="url(#gl)"/>

@@ -9,22 +9,31 @@
 @keyframes blink{50%{opacity:0}}
 .pulse{animation:pulse 2.4s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.35}}
-@media (prefers-reduced-motion:reduce){.ln{opacity:1;animation:none}.cur,.pulse{animation:none}}
+.sweep{animation:sweep 7s cubic-bezier(.45,0,.2,1) infinite}
+@keyframes sweep{0%{transform:translateX(-220px)}38%{transform:translateX(560px)}100%{transform:translateX(560px)}}
+.orb{animation:orb 16s ease-in-out infinite}
+@keyframes orb{0%,100%{transform:translate(0,0)}50%{transform:translate(-140px,60px)}}
+@media (prefers-reduced-motion:reduce){.ln{opacity:1;animation:none}.cur,.pulse,.orb{animation:none}.sweep{display:none}}
 </style>
 <defs>
 <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0e1116"/><stop offset="1" stop-color="#191c23"/></linearGradient>
-<radialGradient id="glow" cx="0.82" cy="0.1" r="0.7"><stop stop-color="#ff7a4d" stop-opacity=".16"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow" cx="0.82" cy="0.1" r="0.7"><stop stop-color="#ff7a4d" stop-opacity=".11"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></radialGradient>
 <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".06"/></pattern>
+<linearGradient id="shine" x2="1"><stop stop-color="#f2ba72" stop-opacity="0"/><stop offset=".35" stop-color="#f2ba72" stop-opacity=".9"/><stop offset=".55" stop-color="#ff7a4d" stop-opacity="1"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></linearGradient>
+<radialGradient id="orbg"><stop stop-color="#ff7a4d" stop-opacity=".1"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></radialGradient>
+<clipPath id="ttl"><text x="60" y="218" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="150" font-weight="800" letter-spacing="-3">Hew</text></clipPath>
 </defs>
 <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
 <rect width="1200" height="420" rx="24" fill="url(#dots)"/>
 <rect width="1200" height="420" rx="24" fill="url(#glow)"/>
+<clipPath id="frame"><rect width="1200" height="420" rx="24"/></clipPath><g clip-path="url(#frame)"><circle class="orb" cx="1010" cy="40" r="300" fill="url(#orbg)"/></g>
 <rect x=".5" y=".5" width="1199" height="419" rx="23.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
 
 <circle class="pulse" cx="70" cy="72" r="5" fill="#7ebba9"/>
 <text x="86" y="77" class="mono" font-size="14" letter-spacing="3" fill="#9aa3ae">AVAILABLE FOR INTERESTING IDEAS</text>
 
 <text x="60" y="218" class="sans" font-size="150" font-weight="800" letter-spacing="-3" fill="#f4f0e8">Hew<tspan fill="#ff7a4d">.</tspan></text>
+<g clip-path="url(#ttl)"><g transform="skewX(-20)"><rect class="sweep" x="40" y="70" width="170" height="170" fill="url(#shine)" opacity=".85"/></g></g>
 <text x="66" y="268" class="sans" font-size="26" font-weight="600" fill="#f4f0e8">AI Builder <tspan fill="#5d6570">/</tspan> Frontend Engineer <tspan fill="#5d6570">/</tspan> Indie Maker</text>
 <text x="66" y="306" class="sans" font-size="19" fill="#9aa3ae">I build tools that help AI agents — and people — get real work done.</text>
 
