@@ -1,54 +1,55 @@
-<div align="center">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/code-into-poetry.png" />
+  <img src="assets/code-into-poetry.gif" width="100%" alt="Hew — Useful tools. Thoughtful experiences. Code becomes a moonlit mountain landscape." />
+</picture>
 
-<img src="assets/hero.svg" width="100%" alt="Hew — Developer, AI Explorer, Indie Maker" />
+I'm **Hew**, a frontend developer building practical web tools and interactive experiences. I explore AI through small implementations, hands-on tests, and reusable workflows.
 
-<br />
-
-**Frontend Developer** &nbsp; / &nbsp; **AI Explorer** &nbsp; / &nbsp; **Indie Maker**
-
-*Building practical tools, playful experiences, and things worth shipping.*
-
-[Website · ToolkitFree](https://toolkitfree.net/) &nbsp; · &nbsp; [Creative Project · Poetry](https://shi.guoxueji.org/) &nbsp; · &nbsp; [Notes & Updates · X](https://x.com/ruofeng_x)
-
-</div>
+[Poetry in Motion](https://shi.guoxueji.org/) · [ToolkitFree](https://toolkitfree.net/) · [Notes & updates on X](https://x.com/ruofeng_x)
 
 <br />
 
-### 01 / A LITTLE ABOUT ME
+### 01 / FEATURED EXPERIENCE
 
-Hey, I'm **Hew**. I work primarily with **React, TypeScript, and Node.js**, and I enjoy turning ideas into usable web products. Lately I've been exploring how **AI agents, automation, and creative coding** can make software more helpful — and more interesting.
+<a href="https://shi.guoxueji.org/"><img src="assets/poetry.svg" width="100%" alt="Poetry in Motion — illustrated mountains and moon. Open the website to explore the interactive scenes." /></a>
 
-I care about thoughtful interfaces, simple workflows, and shipping things that people can actually use.
+**诗之境 · Poetry in Motion**  
+**Chinese poetry you can step into.**
 
-### 02 / THINGS I'VE MADE
+Interactive scenes that bring classical Chinese poems to life through code. An exploration of language, landscape, and the feeling of being there.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://toolkitfree.net/"><img src="assets/toolkitfree.svg" alt="ToolkitFree project artwork" width="100%"/></a><br/>
-<b>ToolkitFree</b><br/>
-<sub>A collection of practical online tools for everyday file and image tasks.</sub><br/><br/>
-<a href="https://toolkitfree.net/">Explore the tools ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://shi.guoxueji.org/"><img src="assets/poetry.svg" alt="Poetry in Motion project artwork" width="100%"/></a><br/>
-<b>Poetry in Motion · 诗之境</b><br/>
-<sub>Classical Chinese poetry reimagined as interactive, code-driven scenes.</sub><br/><br/>
-<a href="https://shi.guoxueji.org/">Experience the poetry ↗</a>
-</td>
-</tr>
-</table>
+[**Step into the poetry →**](https://shi.guoxueji.org/)
 
-### 03 / THE TOOLKIT
+<br />
 
-`TypeScript` &nbsp; `JavaScript` &nbsp; `React` &nbsp; `Node.js` &nbsp; `HTML/CSS` &nbsp; `Git` &nbsp; `Linux`
+### 02 / SELECTED WORK
 
-**Currently exploring** &nbsp; `AI Agents` &nbsp; `LLM Applications` &nbsp; `Automation` &nbsp; `Creative Coding`
+| ToolkitFree | Product Blueprint |
+| :--- | :--- |
+| Practical online tools for everyday file and image tasks. | A reusable AI skill that turns a rough product idea into a validated, actionable brief. |
+| **Web product** · Everyday utilities | **Open-source skill** · Product thinking |
+| [Explore the tools →](https://toolkitfree.net/) | [Explore the skill →](https://github.com/Hew007/product-blueprint-skill) |
 
-### 04 / WHAT'S NEXT
+<br />
 
-I'm interested in the intersection of **useful software**, **AI-powered workflows**, and **independent products**. I share experiments, discoveries, and the occasional behind-the-scenes build note on [X / @ruofeng_x](https://x.com/ruofeng_x).
+### 03 / FROM THE LAB
+
+Small implementations and hands-on tests exploring how AI works in practice.
+
+**[Agent Dreaming](https://github.com/Hew007/agent-dreaming-demo)**  
+A minimal TypeScript demo of layered agent memory and offline consolidation. Includes a mock mode to explore the data flow without an API key.
+
+**[Woof Browser Bench](https://github.com/Hew007/woof-browser-bench)**  
+Browser speech-generation experiments with recorded measurements, raw results, and explicit limitations.
+
+<br />
+
+### 04 / BEHIND THE BUILDS
+
+I work primarily with **React, TypeScript, and Node.js**. I'm interested in thoughtful interfaces, creative coding, and AI workflows that make building more useful and more interesting.
+
+I share experiments and build notes on **[X / @ruofeng_x](https://x.com/ruofeng_x)**.
 
 ---
 
-<div align="center"><sub>MAKE IT SIMPLE. MAKE IT USEFUL. KEEP BUILDING.</sub><br/><sub>© Hew · <a href="https://github.com/Hew007">GitHub</a> · <a href="https://x.com/ruofeng_x">X</a></sub></div>
+<sub>CRAFT / CODE / CURIOSITY · Built by Hew</sub>
