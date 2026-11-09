@@ -1,1 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#12161c"/><stop offset="1" stop-color="#20232b"/></linearGradient><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".055"/></pattern></defs><rect width="1200" height="460" rx="26" fill="url(#bg)"/><rect width="1200" height="460" rx="26" fill="url(#grid)"/><circle cx="1102" cy="56" r="240" fill="#e97b5f" opacity=".07"/><path d="M40 69H1160" stroke="#ffffff" stroke-opacity=".12"/><circle cx="69" cy="36" r="6" fill="#fa744e"/><circle cx="90" cy="36" r="6" fill="#f2ba72"/><circle cx="111" cy="36" r="6" fill="#81baab"/><text x="146" y="42" fill="#9da4b2" font-size="16" font-family="Arial,sans-serif">hew / portfolio.md</text><text x="1116" y="42" fill="#9da4b2" text-anchor="end" font-size="14" font-family="monospace">EST. 2026</text><text x="65" y="134" font-size="18" letter-spacing="4" fill="#ffab82" font-family="Arial,sans-serif">DEVELOPER / BUILDER / MAKER</text><text x="57" y="320" font-size="205" font-weight="900" letter-spacing="-15" font-family="Arial,Helvetica,sans-serif" fill="#f4f0e8">HEW<tspan fill="#fa744e">.</tspan></text><text x="66" y="379" fill="#c1c5ce" font-size="24" font-family="Arial,sans-serif">I turn curious ideas into useful digital things.</text><path d="M730 150H1085V356H730Z" fill="#11151a" stroke="#6b747f" stroke-opacity=".6"/><path d="M730 185H1085" stroke="#6b747f" stroke-opacity=".5"/><circle cx="753" cy="168" r="5" fill="#fa744e"/><circle cx="770" cy="168" r="5" fill="#f2ba72"/><circle cx="787" cy="168" r="5" fill="#81baab"/><text x="755" y="226" font-family="monospace" font-size="18" fill="#a7acb7">$ whoami</text><text x="755" y="266" font-family="monospace" font-size="18" fill="#f4f0e8">frontend developer</text><text x="755" y="298" font-family="monospace" font-size="18" fill="#ffab82">ai explorer + indie maker</text><text x="755" y="330" font-family="monospace" font-size="18" fill="#7ebba9">● building in public_</text><path d="M65 414H1135" stroke="#fff" opacity=".12"/><text x="68" y="438" fill="#88929e" font-size="13" font-family="monospace">CRAFT / CODE / CURIOSITY</text><text x="1130" y="438" text-anchor="end" fill="#88929e" font-size="13" font-family="monospace">github.com/Hew007</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Hew — AI Builder and Frontend Engineer">
+<style>
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.ln{opacity:0;animation:show 12s infinite}
+.l1{animation-delay:.4s}.l2{animation-delay:1.2s}.l3{animation-delay:2s}.l4{animation-delay:3s}.l5{animation-delay:3.8s}.l6{animation-delay:4.8s}
+@keyframes show{0%{opacity:0}3%{opacity:1}78%{opacity:1}82%{opacity:0}100%{opacity:0}}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.ln{opacity:1;animation:none}.cur,.pulse{animation:none}}
+</style>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0e1116"/><stop offset="1" stop-color="#191c23"/></linearGradient>
+<radialGradient id="glow" cx="0.82" cy="0.1" r="0.7"><stop stop-color="#ff7a4d" stop-opacity=".16"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".06"/></pattern>
+</defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="24" fill="url(#dots)"/>
+<rect width="1200" height="420" rx="24" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1199" height="419" rx="23.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
+
+<circle class="pulse" cx="70" cy="72" r="5" fill="#7ebba9"/>
+<text x="86" y="77" class="mono" font-size="14" letter-spacing="3" fill="#9aa3ae">AVAILABLE FOR INTERESTING IDEAS</text>
+
+<text x="60" y="218" class="sans" font-size="150" font-weight="800" letter-spacing="-3" fill="#f4f0e8">Hew<tspan fill="#ff7a4d">.</tspan></text>
+<text x="66" y="268" class="sans" font-size="26" font-weight="600" fill="#f4f0e8">AI Builder <tspan fill="#5d6570">/</tspan> Frontend Engineer <tspan fill="#5d6570">/</tspan> Indie Maker</text>
+<text x="66" y="306" class="sans" font-size="19" fill="#9aa3ae">I build tools that help AI agents — and people — get real work done.</text>
+
+<g class="mono" font-size="13">
+<rect x="66" y="340" width="52" height="30" rx="15" fill="#ff7a4d" fill-opacity=".12" stroke="#ff7a4d" stroke-opacity=".45"/><text x="92.0" y="360" text-anchor="middle" fill="#ffab82">MCP</text>
+<rect x="128" y="340" width="123" height="30" rx="15" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".14"/><text x="189.5" y="360" text-anchor="middle" fill="#c9ced6">Agent Skills</text>
+<rect x="261" y="340" width="123" height="30" rx="15" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".14"/><text x="322.5" y="360" text-anchor="middle" fill="#c9ced6">Agent Memory</text>
+<rect x="394" y="340" width="123" height="30" rx="15" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".14"/><text x="455.5" y="360" text-anchor="middle" fill="#c9ced6">On-device AI</text>
+<rect x="527" y="340" width="170" height="30" rx="15" fill="#7ebba9" fill-opacity=".1" stroke="#7ebba9" stroke-opacity=".45"/><text x="612.0" y="360" text-anchor="middle" fill="#9fd3c3">React + TypeScript</text>
+</g>
+
+<g transform="translate(730 64)">
+<rect width="410" height="292" rx="14" fill="#0b0d11" stroke="#fff" stroke-opacity=".12"/>
+<path d="M0 40H410" stroke="#fff" stroke-opacity=".08"/>
+<circle cx="22" cy="20" r="5.5" fill="#ff7a4d"/><circle cx="40" cy="20" r="5.5" fill="#f2ba72"/><circle cx="58" cy="20" r="5.5" fill="#7ebba9"/>
+<text x="205" y="25" text-anchor="middle" class="mono" font-size="12" fill="#5d6570">~/lab — agent session</text>
+<g class="mono" font-size="14.5">
+<text x="22" y="78" class="ln l1" fill="#9aa3ae"><tspan fill="#7ebba9">$</tspan> claude  <tspan fill="#5d6570"># + chrome-debug-mcp</tspan></text>
+<text x="22" y="112" class="ln l2" fill="#f4f0e8"><tspan fill="#ff7a4d">›</tspan> attach_by_url <tspan fill="#f2ba72">"localhost:5173"</tspan></text>
+<text x="22" y="138" class="ln l3" fill="#9aa3ae">  <tspan fill="#ff6b6b">✗</tspan> 3 console errors captured</text>
+<text x="22" y="172" class="ln l4" fill="#f4f0e8"><tspan fill="#ff7a4d">›</tspan> patch <tspan fill="#9aa3ae">src/useUser.ts</tspan></text>
+<text x="22" y="206" class="ln l5" fill="#f4f0e8"><tspan fill="#ff7a4d">›</tspan> reload_and_check</text>
+<text x="22" y="232" class="ln l6" fill="#9fd3c3">  ✓ 0 errors — fix verified</text>
+</g>
+<rect class="cur" x="22" y="252" width="9" height="18" fill="#ff7a4d"/>
+</g>
+<text x="1140" y="392" text-anchor="end" class="mono" font-size="12" letter-spacing="2" fill="#5d6570">GITHUB.COM/HEW007</text>
+<text x="66" y="392" class="mono" font-size="12" letter-spacing="2" fill="#5d6570">CRAFT · CODE · CURIOSITY</text>
+</svg>

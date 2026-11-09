@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e9e7de"/><stop offset="1" stop-color="#c9d9d5"/></linearGradient></defs><rect width="760" height="440" rx="22" fill="url(#bg)"/><text x="40" y="62" font-family="Arial" font-size="16" font-weight="700" letter-spacing="3" fill="#6c7772">02 / CREATIVE CODING</text><text x="39" y="124" font-family="Arial" font-size="52" font-weight="800" fill="#2b3b3a">Poetry in Motion</text><text x="40" y="161" font-family="Arial" font-size="21" fill="#6b7774">Ancient verses, interactive worlds.</text><circle cx="613" cy="252" r="73" fill="#f5f0de"/><path d="M30 379Q110 295 183 340Q251 270 317 344Q423 210 532 321Q630 270 760 367V440H0V405Z" fill="#9eb3ac" opacity=".65"/><path d="M0 407Q106 348 216 396Q334 286 424 373Q534 321 602 370Q694 328 760 371V440H0Z" fill="#647d7b"/><path d="M0 418Q126 387 263 421Q381 354 482 414Q609 363 760 413V440H0Z" fill="#344e50"/><g stroke="#3c5754" stroke-width="5" stroke-linecap="round"><path d="M120 398v-101M120 322l-36-32M120 337l39-45M120 365l-46-30M120 360l43-27"/></g><g fill="#657e75" opacity=".85"><ellipse cx="87" cy="292" rx="46" ry="18"/><ellipse cx="150" cy="284" rx="50" ry="18"/><ellipse cx="119" cy="269" rx="48" ry="19"/></g><text x="578" y="418" fill="#f1f4e8" font-family="serif" font-size="20" letter-spacing="6">诗之境</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-label="Poetry in Motion: classical Chinese poetry as interactive scenes">
+<style>.s{font-family:ui-sans-serif,-apple-system,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.flow{stroke-dasharray:4 6;animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-20}}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.tw{animation:tw 3s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.flow,.grow,.tw{animation:none}}</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#12161c"/><stop offset="1" stop-color="#1a1e26"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r=".8"><stop stop-color="#f2ba72" stop-opacity=".14"/><stop offset="1" stop-color="#f2ba72" stop-opacity="0"/></radialGradient></defs>
+<rect width="600" height="340" rx="20" fill="url(#bg)"/><rect width="600" height="340" rx="20" fill="url(#gl)"/>
+<rect x=".5" y=".5" width="599" height="339" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
+<text x="32" y="46" class="m" font-size="12" letter-spacing="2.5" fill="#f2ba72">SHIPPED · CREATIVE CODING</text>
+<text x="32" y="88" class="s" font-size="31" font-weight="800" letter-spacing="-.5" fill="#f4f0e8">Poetry in Motion · 诗之境</text>
+<text x="32" y="118" class="s" font-size="15.5" fill="#9aa3ae">Classical Chinese poetry, reimagined as living scenes.</text>
+<clipPath id="cp"><rect x="32" y="138" width="536" height="140" rx="12"/></clipPath>
+<g clip-path="url(#cp)"><rect x="32" y="138" width="536" height="140" fill="#0b0d11"/>
+<circle cx="470" cy="180" r="26" fill="#f6ecd2"/><circle cx="470" cy="180" r="44" fill="#f6ecd2" opacity=".08"/>
+<g fill="#f4f0e8"><circle class="tw" cx="268" cy="166" r="1.5"/><circle class="tw" cx="300" cy="152" r="1.3" style="animation-delay:1.2s"/><circle class="tw" cx="390" cy="210" r="1.2" style="animation-delay:2s"/></g>
+<path d="M32 250Q110 196 190 232Q260 186 330 228Q430 170 520 226Q550 214 568 222V278H32Z" fill="#3a4a4c"/>
+<path d="M32 264Q140 234 250 262Q360 226 450 258Q520 240 568 252V278H32Z" fill="#26343a"/></g>
+<text x="90" y="182" font-size="17" letter-spacing="8" fill="#f4f0e8" font-family="serif">床前明月光</text>
+<text x="90" y="210" font-size="17" letter-spacing="8" fill="#9aa3ae" font-family="serif">疑是地上霜</text>
+<g class="m" font-size="12"><rect x="32" y="292" width="98" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="81" y="308" text-anchor="middle" fill="#c9ced6">TypeScript</text><rect x="138" y="292" width="136" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="206" y="308" text-anchor="middle" fill="#c9ced6">Creative coding</text><rect x="282" y="292" width="105.6" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="334.8" y="308" text-anchor="middle" fill="#c9ced6">Interactive</text></g>
+</svg>

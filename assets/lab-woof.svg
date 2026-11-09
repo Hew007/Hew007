@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-label="woof-browser-bench: in-browser TTS benchmark, WebGPU vs WASM">
+<style>.s{font-family:ui-sans-serif,-apple-system,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.flow{stroke-dasharray:4 6;animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-20}}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.tw{animation:tw 3s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.flow,.grow,.tw{animation:none}}</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#12161c"/><stop offset="1" stop-color="#1a1e26"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r=".8"><stop stop-color="#ff7a4d" stop-opacity=".14"/><stop offset="1" stop-color="#ff7a4d" stop-opacity="0"/></radialGradient></defs>
+<rect width="600" height="340" rx="20" fill="url(#bg)"/><rect width="600" height="340" rx="20" fill="url(#gl)"/>
+<rect x=".5" y=".5" width="599" height="339" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
+<text x="32" y="46" class="m" font-size="12" letter-spacing="2.5" fill="#ff7a4d">AI LAB · 04 · ON-DEVICE AI</text>
+<text x="32" y="88" class="s" font-size="31" font-weight="800" letter-spacing="-.5" fill="#f4f0e8">woof-browser-bench</text>
+<text x="32" y="118" class="s" font-size="15.5" fill="#9aa3ae">Text-to-speech fully in the browser: WebGPU vs WASM.</text>
+<text x="32" y="154" class="m" font-size="12" fill="#9aa3ae">short</text>
+<rect x="104" y="138" width="7.857142857142857" height="12" rx="3" fill="#ff7a4d"/><text x="121.85714285714286" y="149" class="m" font-size="11" fill="#ffab82">0.50s</text>
+<rect x="104" y="154" width="98.99999999999999" height="12" rx="3" fill="#5d6570"/><text x="209" y="165" class="m" font-size="11" fill="#9aa3ae">6.3s</text><text x="32" y="196" class="m" font-size="12" fill="#9aa3ae">medium</text>
+<rect x="104" y="180" width="14.457142857142857" height="12" rx="3" fill="#ff7a4d"/><text x="128.45714285714286" y="191" class="m" font-size="11" fill="#ffab82">0.92s</text>
+<rect x="104" y="196" width="326.85714285714283" height="12" rx="3" fill="#5d6570"/><text x="436.85714285714283" y="207" class="m" font-size="11" fill="#9aa3ae">20.8s</text><text x="32" y="238" class="m" font-size="12" fill="#9aa3ae">long</text>
+<rect x="104" y="222" width="20.428571428571427" height="12" rx="3" fill="#ff7a4d"/><text x="134.42857142857142" y="233" class="m" font-size="11" fill="#ffab82">1.30s</text>
+<rect x="104" y="238" width="289.1428571428571" height="12" rx="3" fill="#5d6570"/><text x="399.1428571428571" y="249" class="m" font-size="11" fill="#9aa3ae">18.4s</text><g class="m" font-size="11.5"><rect x="32" y="266" width="10" height="10" rx="2" fill="#ff7a4d"/><text x="48" y="275" fill="#9aa3ae">WebGPU</text><rect x="110" y="266" width="10" height="10" rx="2" fill="#5d6570"/><text x="126" y="275" fill="#9aa3ae">CPU / WASM</text></g>
+<text x="568" y="275" text-anchor="end" class="m" font-size="11.5" fill="#5d6570">time to first audio · lower is better</text>
+<g class="m" font-size="12"><rect x="32" y="292" width="67.6" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="65.8" y="308" text-anchor="middle" fill="#c9ced6">WebGPU</text><rect x="107.6" y="292" width="128.39999999999998" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="171.79999999999998" y="308" text-anchor="middle" fill="#c9ced6">Pyodide / WASM</text><rect x="243.99999999999997" y="292" width="98" height="24" rx="12" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text x="293" y="308" text-anchor="middle" fill="#c9ced6">Web Worker</text></g>
+</svg>
