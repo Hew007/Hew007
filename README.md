@@ -6,6 +6,9 @@
 
 [**X @ruofeng_x**](https://x.com/ruofeng_x) &nbsp;·&nbsp; [**ToolkitFree**](https://toolkitfree.net/) &nbsp;·&nbsp; [**诗之境**](https://shi.guoxueji.org/) &nbsp;·&nbsp; [**Blog**](https://hew007.github.io/) &nbsp;·&nbsp; [**Email**](mailto:807525311@qq.com)
 
+
+**English** | [简体中文](README.zh-CN.md)
+
 </div>
 
 <br />
